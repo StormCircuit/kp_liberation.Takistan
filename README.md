@@ -1,37 +1,7 @@
 ![KP Liberation](https://www.killahpotatoes.de/images/arma/liberation.png)
 
-# KP Liberation for Arma 3
+# KP Liberation for Arma 3 with edits by StormCircuit
 
-[![CI](https://github.com/KillahPotatoes/KP-Liberation/workflows/CI/badge.svg)](https://github.com/KillahPotatoes/KP-Liberation/actions?query=workflow%3ACI)
-[![license](https://img.shields.io/github/license/KillahPotatoes/KP-Liberation.svg)](https://github.com/KillahPotatoes/KP-Liberation/blob/master/LICENSE.md)
-[![GitHub release](https://img.shields.io/github/release/KillahPotatoes/KP-Liberation.svg)](https://github.com/KillahPotatoes/KP-Liberation/releases)
-[![GitHub Release Date](https://img.shields.io/github/release-date/KillahPotatoes/KP-Liberation.svg)](https://github.com/KillahPotatoes/KP-Liberation/releases)
-
-[![Github All Releases](https://img.shields.io/github/downloads/KillahPotatoes/KP-Liberation/total.svg)](https://github.com/KillahPotatoes/KP-Liberation)
-[![GitHub stars](https://img.shields.io/github/stars/KillahPotatoes/KP-Liberation)](https://github.com/KillahPotatoes/KP-Liberation/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues-raw/KillahPotatoes/KP-Liberation.svg)](https://github.com/KillahPotatoes/KP-Liberation/issues)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/KillahPotatoes/KP-Liberation.svg)](https://github.com/KillahPotatoes/KP-Liberation/issues?q=is%3Aissue+is%3Aclosed)
-
-[![GitHub contributors](https://img.shields.io/github/contributors/KillahPotatoes/KP-Liberation)](https://github.com/KillahPotatoes/KP-Liberation/graphs/contributors)
-[![GitHub forks](https://img.shields.io/github/forks/KillahPotatoes/KP-Liberation)](https://github.com/KillahPotatoes/KP-Liberation/network)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/KillahPotatoes/KP-Liberation.svg)](https://github.com/KillahPotatoes/KP-Liberation/pulls)
-[![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/KillahPotatoes/KP-Liberation.svg)](https://github.com/KillahPotatoes/KP-Liberation/pulls?q=is%3Apr+is%3Aclosed)
-
-[![KP Discord](https://img.shields.io/discord/154937272368758784?label=Discord)](https://discord.gg/Qk35Sw8)
-
-[BI Forum Thread](https://forums.bistudio.com/topic/202711-mpcti-coop-liberation-continued/)
-
-[Steam Workshop](http://steamcommunity.com/id/wyqer/myworkshopfiles/?appid=107410)
-
-This mission is only a continued project based on the original, but most likely abandoned, mission from [GreuhZbug](https://github.com/GreuhZbug).
-
-[Original Liberation mission v0.924](https://github.com/GreuhZbug/greuh_liberation.Altis)
-
-If you like the work and think it's worth a small donation, feel free to use the following link:
-
-[Donate via paypal.me](https://www.paypal.me/wyqer)
-
-## Overview
 The area has fallen to the enemy, and it is up to you to take it back. Embark on a persistent campaign with your teammates to liberate all the major cities of the area that will most likely span several weeks of real time.
 * Experience a massive “Capture the Island” campaign involving a large range of different settlements across the entire area.
 * Cooperate with up to 34 players, including a Commanding role, two fire-team squads, a medevac and a logistical support squad as well as AI recruits to fill the gaps.
