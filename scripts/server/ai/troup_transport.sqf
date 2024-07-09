@@ -2,6 +2,16 @@ params [
     ["_transVeh", objNull, [objNull]]
 ];
 
+// Storm's documentation:
+/*
+troup_transport takes a vehicle from spawn_battlegroup and assigns it as transport
+
+the occupants are NOT spawned instantly but instead spawned when the truck gets close to
+ the unload point. This means transports spawn empty, drive to unload point, THEN spawn AI
+
+*/
+
+
 if (isNull _transVeh) exitWith {};
 sleep 1;
 
@@ -20,6 +30,9 @@ waitUntil {
 
 if ((alive _transVeh) && (alive (driver _transVeh))) then {
     _infGrp = createGroup [GRLIB_side_enemy, true];
+    
+
+    hint format ["spawned group"];
 
     {
         [_x, _start_pos, _infGrp, "PRIVATE", 0.5] call KPLIB_fnc_createManagedUnit;

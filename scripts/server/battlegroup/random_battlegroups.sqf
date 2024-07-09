@@ -22,7 +22,7 @@ while {GRLIB_csat_aggressivity > 0.9 && GRLIB_endgame == 0} do {
     
     //_sleeptime = (900 + ((random(1350)/GRLIB_csat_aggressivity)));
     _sleeptime = 1;
-    hint format ["%1", _sleeptime];
+    //hint format ["%1", _sleeptime];
 
     if (combat_readiness >= 80) then {_sleeptime = _sleeptime * 0.75;};
     if (combat_readiness >= 90) then {_sleeptime = _sleeptime * 0.75;};

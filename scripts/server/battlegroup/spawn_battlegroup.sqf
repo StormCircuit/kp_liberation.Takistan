@@ -65,8 +65,10 @@ if !(_spawn_marker isEqualTo "") then {
 
             if ((_x in opfor_troup_transports) && ([] call KPLIB_fnc_getOpforCap < GRLIB_battlegroup_cap)) then {
                 if (_vehicle isKindOf "Air") then {
+                    //hint format ["air transport"];
                     [[markerPos _spawn_marker] call KPLIB_fnc_getNearestBluforObjective, _vehicle] spawn send_paratroopers;
                 } else {
+                    //hint format ["ground transport"];
                     [_vehicle] spawn troup_transport;
                 };
             };

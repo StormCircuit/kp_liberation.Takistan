@@ -51,14 +51,11 @@ militia_squad = [
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector
-// this is for medium intensity
 militia_vehicles = [
 	"O_APC_Tracked_02_AA_F",											// Tigris from vanilla. Far more adept at CIWS
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "O_LSV_02_AT_F",                                                    // Apex mounted metis
-    "O_UGV_01_rcws_F",                                                 	// ugv saif
-	"rhs_Igla_AA_pod_vdv"												// igla static
+    "O_APC_Wheeled_02_rcws_F",                                          // MSE-3 Marid
+    "O_UGV_01_rcws_F"                                                 	// ugv saif
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
@@ -68,8 +65,7 @@ opfor_vehicles = [
 	"O_APC_Tracked_02_AA_F",											// Tigris from vanilla. Far more adept at CIWS
     "rhs_sprut_vdv",                                                 	// sprut tank destroyer
     "rhs_t90sm_tv",                                                    	// T90SM
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
+    "O_APC_Wheeled_02_rcws_F",                                          // MSE-3 Marid
     "O_UGV_01_rcws_F"                                                 	// ugv saif
 ];
 
@@ -77,37 +73,37 @@ opfor_vehicles = [
 // low intensity (as it says)
 opfor_vehicles_low_intensity = [
 	"O_APC_Tracked_02_AA_F",											// Tigris from vanilla. Far more adept at CIWS
-    "O_LSV_02_AT_F",                                                    // Apex mounted metis
+    "O_APC_Tracked_02_30mm_lxWS",                                       // BTR-T Iksatel from WS    
+    "O_Truck_03_covered_F",                                             // Tempest Transport (Covered)
+    "O_APC_Wheeled_02_rcws_F",                                          // MSE-3 Marid
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "rhs_btr80_vv",                                                     // BTR 80
     "O_UGV_01_rcws_F",                                                 	// ugv saif
-    "O_UGV_01_rcws_F"                                                 	// ugv saif
-
+    "O_UGV_01_rcws_F",                                                 	// ugv saif
+    "RHS_Mi8mtv3_heavy_vvsc"                                            // Mi-8MT (Heavy)
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
 	"O_APC_Tracked_02_AA_F",											// Tigris from vanilla. Far more adept at CIWS
     "O_APC_Tracked_02_30mm_lxWS",                                       // BTR-T Iksatel from WS
-    "rhs_btr80a_vv",                                                    // BTR-80a from rhs
-    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
+    "O_Truck_03_covered_F",                                             // Tempest Transport (Covered)
+    "O_APC_Wheeled_02_rcws_F",                                          // MSE-3 Marid
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
     "rhs_t90sm_tv",                                                    	// T90SM
+    "O_MBT_04_command_F",                                               // T-140K Angara
     "RHS_Mi24P_AT_vvsc",                                                // Mi-24P (AT)
     "RHS_Mi24V_AT_vvsc",                                                // Mi-24V (AT)
     "RHS_Ka52_vvsc",                                                    // Ka-52
-    "RHS_Mi8mtv3_heavy_vvsc",                                           // Mi-8MT (Heavy)
     "O_Heli_Attack_02_dynamicLoadout_F"                                 // Mi-48 Kajman
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
+// below 50 readiness they spawn these 
 opfor_battlegroup_vehicles_low_intensity = [
 	"O_APC_Tracked_02_AA_F",											// Tigris from vanilla. Far more adept at CIWS
-    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
     "O_Truck_03_covered_F",                                             // Tempest Transport (Covered)
     "O_APC_Wheeled_02_rcws_F",                                          // MSE-3 Marid
-    "rhs_btr80_vv",                                                     // BTR 80
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_sprut_vdv",                                                 	// sprut tank destroyer
     "O_UGV_01_rcws_F"                                                 	// ugv saif
 ];
 
@@ -117,8 +113,7 @@ If something in this array can't hold all 8 soldiers then buggy behaviours may o
 opfor_troup_transports = [
     "O_Heli_Attack_02_dynamicLoadout_F",                                 // Mi-48 Kajman
     "O_Truck_03_covered_F",                                              // Tempest Transport (Covered)
-    "O_APC_Wheeled_02_rcws_F",                                           // MSE-3 Marid
-    "RHS_Ural_MSV_01"                                                    // Ural-4320 Transport (Covered)
+    "O_APC_Wheeled_02_rcws_F"                                            // MSE-3 Marid
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
